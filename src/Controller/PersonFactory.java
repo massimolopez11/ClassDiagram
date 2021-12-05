@@ -1,4 +1,5 @@
 package Controller;
+import Model.*;
 
 public class PersonFactory {
     public Person getPerson(String personType){

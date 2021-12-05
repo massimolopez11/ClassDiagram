@@ -1,5 +1,5 @@
 package Controller;
-
+import Model.*;
 public class BookExam {
     private int bookingId;
 

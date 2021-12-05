@@ -1,5 +1,5 @@
 package Controller;
-
+import Model.*;
 public class Controller {
     private Course course;
     private Exam exam;
