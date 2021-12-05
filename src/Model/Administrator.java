@@ -8,7 +8,7 @@ public class Administrator extends Person{
     public int getAdministratorId() {
         return administratorId;
     }
-    public Administrator(){
-        controller = new Controller();
+    public Administrator(Controller controller){
+        this.controller = controller;
     }
 }
