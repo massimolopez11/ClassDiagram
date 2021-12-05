@@ -1,11 +1,11 @@
 package Model;
 
-public class Credit {
+public class Credit extends Payment{
     private String number;
     private String type;
-    private date expireDate;
+    private String expireDate;
 
-    public boolean validateCard(String number, String type, date expireDate) {
+    public boolean validateCard(String number, String type, String expireDate) {
         return true;
     }
 }

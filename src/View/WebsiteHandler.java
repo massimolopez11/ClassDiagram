@@ -1,8 +1,11 @@
 package View;
 
 import java.util.List;
-import  View.*;
-public class WebsiteHandler {
-    List<String> viewObervers;
 
+public class WebsiteHandler {
+    List<Observer> viewObservers;
+    List<WebPage> webPages;
+    public void displayView(){
+
+    }
 }

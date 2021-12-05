@@ -1,23 +1,23 @@
 package View;
 
-public abstract class ViewObserver implements Observer{
+public class HomepageObserver extends ViewObserver {
     @Override
     public void onCreate() {
-
+        super.onCreate();
     }
 
     @Override
     public void onClick() {
-
+        super.onClick();
     }
 
     @Override
     public void onUpdate() {
-
+        super.onUpdate();
     }
 
     @Override
     public void onDelete() {
-
+        super.onDelete();
     }
 }

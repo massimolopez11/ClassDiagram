@@ -1,8 +1,8 @@
 package Controller;
 import Model.*;
 
-public class PersonFactory {
-    public Person getPerson(String personType){
+public class UserFactory {
+    public User getPerson(String personType){
         if(personType == null){
             return null;
         }
